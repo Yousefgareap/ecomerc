@@ -657,6 +657,15 @@ h1.custom-heading {
   border-color: #f8ad47 !important;
 }
 
+/* -----------contact page--------- */
+#contact-option .contact-info ul.contact-list {
+  list-style: none;
+}
+
+#contact-option .contact-info ul.contact-list li i {
+  color: #f8ad47 !important;
+}
+
 @media (max-width: 1199.98px) {
   .custom-navbar .navbar-nav li a.nav-link {
     padding: 7px;
