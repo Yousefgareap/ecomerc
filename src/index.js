@@ -11,3 +11,12 @@ import "@fortawesome/fontawesome-free/js/all.min.js";
 document
   .querySelectorAll("[data-bs-toggle='tooltip']")
   .forEach((item) => new bootstrap.Tooltip(item));
+
+document.querySelectorAll(".add-to-cart-btn").forEach((item) => {
+  item.addEventListener("click", (e) => {
+    window.alert("Added to cart");
+  });
+});
+
+document.getElementById("copyright").innerHTML =
+  "جميع الحقوق محفوظة لسنة " + new Date().getFullYear();
